@@ -11,13 +11,13 @@ To use this project, you will need to have Docker installed on your computer.
 Open a terminal window and run the following command to pull the Docker image from Docker Hub:
 
 ```
-docker pull thewation/cicephpbox:v1.1
+docker pull thewation/cicephpbox:latest
 ```
 
 Run the Docker container using the following command:
 
 ```
-docker run -p 8000:80 thewation/cicephpbox:v1.1
+docker run -p 8000:80 thewation/cicephpbox:latest
 ```
 
 This command will start the Docker container and map port 80 of the container to port 8000 of your local machine. You can access the PHP files in the container by opening your web browser and navigating to `http://127.0.0.1:8000/`.
